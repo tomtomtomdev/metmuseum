@@ -14,6 +14,11 @@
 		2BCAAE152C69106E00EC1C7D /* MetmuseumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE142C69106E00EC1C7D /* MetmuseumTests.swift */; };
 		2BCAAE1F2C69106E00EC1C7D /* MetmuseumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE1E2C69106E00EC1C7D /* MetmuseumUITests.swift */; };
 		2BCAAE212C69106E00EC1C7D /* MetmuseumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE202C69106E00EC1C7D /* MetmuseumUITestsLaunchTests.swift */; };
+		2BCAAE2E2C69108D00EC1C7D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE2D2C69108D00EC1C7D /* NetworkService.swift */; };
+		2BCAAE302C6910AC00EC1C7D /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE2F2C6910AC00EC1C7D /* Artwork.swift */; };
+		2BCAAE322C6914A300EC1C7D /* ArtRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE312C6914A300EC1C7D /* ArtRepository.swift */; };
+		2BCAAE342C6914C900EC1C7D /* ArtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE332C6914C900EC1C7D /* ArtViewModel.swift */; };
+		2BCAAE3B2C69173D00EC1C7D /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE3A2C69173D00EC1C7D /* ArtworkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		2BCAAE1A2C69106E00EC1C7D /* MetmuseumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetmuseumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCAAE1E2C69106E00EC1C7D /* MetmuseumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetmuseumUITests.swift; sourceTree = "<group>"; };
 		2BCAAE202C69106E00EC1C7D /* MetmuseumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetmuseumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BCAAE2D2C69108D00EC1C7D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2BCAAE2F2C6910AC00EC1C7D /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		2BCAAE312C6914A300EC1C7D /* ArtRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtRepository.swift; sourceTree = "<group>"; };
+		2BCAAE332C6914C900EC1C7D /* ArtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewModel.swift; sourceTree = "<group>"; };
+		2BCAAE3A2C69173D00EC1C7D /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				2BCAAE032C69106D00EC1C7D /* MetmuseumApp.swift */,
-				2BCAAE052C69106D00EC1C7D /* ContentView.swift */,
+				2BCAAE392C69173700EC1C7D /* View */,
+				2BCAAE382C69172800EC1C7D /* Network */,
+				2BCAAE352C6916FA00EC1C7D /* Model */,
+				2BCAAE372C69171300EC1C7D /* Repository */,
+				2BCAAE362C69170500EC1C7D /* Presentation */,
 				2BCAAE072C69106E00EC1C7D /* Assets.xcassets */,
 				2BCAAE092C69106E00EC1C7D /* Preview Content */,
 			);
@@ -125,6 +139,47 @@
 				2BCAAE202C69106E00EC1C7D /* MetmuseumUITestsLaunchTests.swift */,
 			);
 			path = MetmuseumUITests;
+			sourceTree = "<group>";
+		};
+		2BCAAE352C6916FA00EC1C7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAAE2F2C6910AC00EC1C7D /* Artwork.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BCAAE362C69170500EC1C7D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAAE332C6914C900EC1C7D /* ArtViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2BCAAE372C69171300EC1C7D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAAE312C6914A300EC1C7D /* ArtRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2BCAAE382C69172800EC1C7D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAAE2D2C69108D00EC1C7D /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2BCAAE392C69173700EC1C7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BCAAE052C69106D00EC1C7D /* ContentView.swift */,
+				2BCAAE3A2C69173D00EC1C7D /* ArtworkDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCAAE322C6914A300EC1C7D /* ArtRepository.swift in Sources */,
+				2BCAAE342C6914C900EC1C7D /* ArtViewModel.swift in Sources */,
+				2BCAAE3B2C69173D00EC1C7D /* ArtworkDetailView.swift in Sources */,
 				2BCAAE062C69106D00EC1C7D /* ContentView.swift in Sources */,
+				2BCAAE302C6910AC00EC1C7D /* Artwork.swift in Sources */,
+				2BCAAE2E2C69108D00EC1C7D /* NetworkService.swift in Sources */,
 				2BCAAE042C69106D00EC1C7D /* MetmuseumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
