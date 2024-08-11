@@ -19,6 +19,7 @@
 		2BCAAE322C6914A300EC1C7D /* ArtRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE312C6914A300EC1C7D /* ArtRepository.swift */; };
 		2BCAAE342C6914C900EC1C7D /* ArtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE332C6914C900EC1C7D /* ArtViewModel.swift */; };
 		2BCAAE3B2C69173D00EC1C7D /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE3A2C69173D00EC1C7D /* ArtworkDetailView.swift */; };
+		2BCAAE3D2C691CF800EC1C7D /* ArtworkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCAAE3C2C691CF800EC1C7D /* ArtworkRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2BCAAE312C6914A300EC1C7D /* ArtRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtRepository.swift; sourceTree = "<group>"; };
 		2BCAAE332C6914C900EC1C7D /* ArtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtViewModel.swift; sourceTree = "<group>"; };
 		2BCAAE3A2C69173D00EC1C7D /* ArtworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
+		2BCAAE3C2C691CF800EC1C7D /* ArtworkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				2BCAAE052C69106D00EC1C7D /* ContentView.swift */,
 				2BCAAE3A2C69173D00EC1C7D /* ArtworkDetailView.swift */,
+				2BCAAE3C2C691CF800EC1C7D /* ArtworkRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				2BCAAE3B2C69173D00EC1C7D /* ArtworkDetailView.swift in Sources */,
 				2BCAAE062C69106D00EC1C7D /* ContentView.swift in Sources */,
 				2BCAAE302C6910AC00EC1C7D /* Artwork.swift in Sources */,
+				2BCAAE3D2C691CF800EC1C7D /* ArtworkRowView.swift in Sources */,
 				2BCAAE2E2C69108D00EC1C7D /* NetworkService.swift in Sources */,
 				2BCAAE042C69106D00EC1C7D /* MetmuseumApp.swift in Sources */,
 			);

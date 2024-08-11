@@ -18,18 +18,7 @@ struct ContentView: View {
                 Button(action: {
                     selectedArtwork = artwork
                 }) {
-                    VStack(alignment: .leading) {
-                        Text(artwork.title)
-                            .font(.headline)
-                        Text(artwork.artist)
-                            .font(.subheadline)
-                        
-                        if let imageURL = artwork.imageURL {
-                            AsyncImage(url: URL(string: imageURL))
-                                .frame(width: 100, height: 100)
-                                .cornerRadius(8)
-                        }
-                    }
+                    ArtworkRowView(artwork: artwork)
                 }
             }
             .sheet(item: $selectedArtwork, content: { artwork in
